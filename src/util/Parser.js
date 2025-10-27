@@ -25,7 +25,7 @@ export default class Parser {
         if (typeof raw === 'number') {
             return this._parseNumberInput(raw);
         }   
-        if (typeof raw !== 'string') {
+        if (typeof raw === 'string') {
             return this._parseStringInput(raw);
         }
         return NaN;

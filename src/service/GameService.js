@@ -1,3 +1,7 @@
+import OutputView from "../io/OutputView";
+import Car from "../domain/Car.js";
+import Race from "../domain/Race.js";
+
 export default class GameService {
     static async play({ names, tryCount }) {
         const cars = names.map((name) => new Car(name));
@@ -15,8 +19,8 @@ export default class GameService {
     }
 
     static #computeWinners(cars) {
-        const maxPosition = this.#findMaxPosition(cars);
-        const winners = this.#findWinners(cars, maxPosition);
+        const maxPosition = GameService.#findMaxPosition(cars);
+        const winners = GameService.#findWinners(cars, maxPosition);
         return winners;
     }
 
