@@ -23,19 +23,14 @@
 
 ### 2. domain
 - [X] Car 클래스 생성
-- [ ] Race 클래스 생성
+- [X] Race 클래스 생성
 
 ### 3. service
 - [ ] GameService 구현
 
 ### 4. io (input/output)
-- InputView
-    - [ ] readCarNames - 이름 입력받기
-    - [ ] readTryCount - 시도 횟수 입력받기
-- OutputView 
-    - [ ] printEcecutionHeader - "실행 결과" 출력
-    - [ ] printRound - 각 차수 결과 출력
-    - [ ] printWinners - 우승자 출력
+- [ ] InputView
+- [X] OutputView 
 
 ### 1. App.js (입출력과 전체 흐름 제어)
 - [ ] 모든 모듈 연동
