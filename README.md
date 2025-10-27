@@ -15,14 +15,14 @@
 
 ### 1. util 
 - parser (문자열 -> 자료형 변환)
-    - [ ] splitNames - 문자열을 쉼표(,)로 분리하고 trim() 적용
-    - [ ] toInteger - 문자열을 정수로 변환
+    - [X] splitNames - 문자열을 쉼표(,)로 분리하고 trim() 적용
+    - [X] toInteger - 문자열을 정수로 변환
 - validator (입력 규칙 검증)
-    - [ ] validateNames - 이름 유효성 검증
-    - [ ] validateCount - 시도 횟수 검증
+    - [X] validateNames - 이름 유효성 검증
+    - [X] validateCount - 시도 횟수 검증
 
 ### 2. domain
-- [ ] Car 클래스 생성
+- [X] Car 클래스 생성
 - [ ] Race 클래스 생성
 
 ### 3. service
