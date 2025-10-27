@@ -26,13 +26,13 @@
 - [X] Race 클래스 생성
 
 ### 3. service
-- [ ] GameService 구현
+- [X] GameService 구현
 
 ### 4. io (input/output)
-- [ ] InputView
+- [X] InputView
 - [X] OutputView 
 
 ### 1. App.js (입출력과 전체 흐름 제어)
-- [ ] 모든 모듈 연동
-- [ ] App.run() 실행 로직 완성
+- [X] 모든 모듈 연동
+- [X] App.run() 실행 로직 완성
 - [ ] `ApplicationTest.js` 테스트 확인
