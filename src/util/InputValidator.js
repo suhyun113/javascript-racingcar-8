@@ -1,4 +1,5 @@
 const ERROR_INVALID_NAME = "[ERROR] 유효하지 않은 자동차 이름입니다.";
+const ERROR_INVALID_TRY_COUNT = "[ERROR] 유효하지 않은 시도 횟수입니다.";
 
 export default class InputValidator {
     static validateNames(names) {
@@ -21,6 +22,16 @@ export default class InputValidator {
         }
         if (trimmed.length > 5) {
             throw new Error(ERROR_INVALID_NAME);
+        }
+    }
+
+    static validateTryCount(count) {
+        if (!Number.isInteger(count)) {
+            throw new Error(ERROR_INVALID_TRY_COUNT);
+        }
+
+        if (count < 1) {
+            throw new Error(ERROR_INVALID_TRY_COUNT);
         }
     }
 }
