@@ -1,6 +1,6 @@
 import InputView from './io/InputView.js';
-import Parser from './util/Parser';
-import InputValidator from './util/InputValidator';
+import Parser from './util/Parser.js';
+import InputValidator from './util/InputValidator.js';
 import GameService from './service/GameService.js';
 
 class App {

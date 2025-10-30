@@ -1,4 +1,4 @@
-import OutputView from "../io/OutputView";
+import OutputView from "../io/OutputView.js";
 import Car from "../domain/Car.js";
 import Race from "../domain/Race.js";
 
